@@ -1,0 +1,16 @@
+Package: Chrispkg
+Type: Package
+Title: Chris's Spaceship
+Version: 0.1.0
+Author: Chris Chen
+Maintainer: Chris Chen <zc58@uw.edu>
+Description: This spaceship have a few functions; for example, log_summed_exps accepts a vector and then calculates the log of the sum of its elements exponentiated.
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    randomForest
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+License: MIT + file LICENSE
